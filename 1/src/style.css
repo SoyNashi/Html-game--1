@@ -1,0 +1,26 @@
+div#container {
+  width: 150px;
+}
+
+div.row {
+  display: block;
+  margin: 3px auto;
+  text-align: center;
+}
+
+span.b {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #ccc;
+}
+
+span.b.active {
+  background: #cc0;
+}
+
+.inactive {
+  visibility: hidden;
+}
